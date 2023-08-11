@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>portfolio resume</title>
+	<style type="text/css">
+		*{
+			border: 0;
+			padding: 0;
+			background-color: black;
+			/*width: 100vh;
+			height: 100vh; */
+			color: white;
+		}
+
+		header nav {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin: 0px;
+			margin-bottom: 50px;
+		}
+		
+		nav a{
+			text-decoration: none;
+			list-style: none;
+			font-size: 15px;
+			margin-top: 10px;
+		}
+		.about{
+			margin-bottom: 100px;
+		}
+		.about p{
+			text-align: center;
+			padding-top: 100px;
+			line-height: 50px;
+
+		}
+		#lak-pic{
+			width: auto;
+			height: 500px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 5px white;
+		}
+		.about-me {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		section .name{
+			text-align: center;
+			font-size: 50px;
+			text-shadow: 2px 2px 10px white;
+		}
+		#skills{
+			margin-bottom: 100px;
+		}
+		.skills-list{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.skills-list ul{
+			text-decoration: none;
+			list-style: none;
+			line-height: 40px;
+		}
+		#skill-img{
+			width: auto;
+			height: 500px;
+			
+			
+		}
+		#projects{
+			margin-bottom: 100px;
+		}
+		#project{
+			letter-spacing: 1px;
+		}
+		.project p{
+			
+			line-height: 30px;
+			
+		}
+		.resume{
+			display: flex;
+			justify-content: space-around;
+			text-align: center;
+		}
+		.resume p{
+			letter-spacing: 2px;
+			padding-top: 100px;
+
+		}
+		.resume img{
+			height: 300px;
+			width: auto;
+		}
+		#resume{
+			margin-bottom: 100px;
+		}
+		#contact{
+			margin-bottom: 100px;
+		}
+		.contact{
+			padding-left: 200px;
+		}
+
+		footer{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- header -->
+
+	<header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#resume">Resume</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+	<!-- about -->
+
+	<section class="about" id="about">
+		<h1 id="about-me-heading">about me</h1>
+		<div class="name">
+			<h1>LAKSHMANA SAII</h1>
+		</div>
+		<div class="about-me">
+			<img id="lak-pic" src="20.jpg" >
+			
+			<p>
+				Hi, I'm M.Lakshmana saii. <br>
+			 I am a passionate web developer with experience in creating modern and user-friendly websites.<br>
+      			I enjoy working on front-end technologies like HTML, CSS, and JavaScript. <br>
+      		I am constantly learning and exploring new tools to improve my skills.
+      	</p>
+		</div>
+	</section>
+	<hr>
+
+	<!-- skills -->
+
+	<section id="skills">
+		<div>
+			<h1>skills</h1>
+		</div>
+		<div>
+			<div class="skills-list">
+    	<ul>
+      		<li>HTML5</li>
+      		<li>CSS3</li>
+      		<li>JavaScript</li>
+      		<li>Responsive Web Design</li>
+      		<li>Python</li>
+      		<li>Java</li>
+    	</ul>
+    	<div>
+    		<img id="skill-img" src="skill-1.png">
+    	</div>
+    </div>
+		</div>
+	</section>
+
+	<!-- projects -->
+
+	 <section id="projects">
+    <h2>Projects</h2>
+    <!-- Add your project samples with titles, descriptions, and images -->
+    <div class="project">
+      <!--   <img src="project1.jpg" alt="Project 1"> -->
+      <h3>Project 1</h3>
+      <h1 >LEAF DISEASE DETECTION USING IMAGE PROCESSING</h1>
+      <p id="project">Leaf disease detection using image processing is an essential application in the field of agriculture and plant pathology. The health of plants directly affects crop yield and quality, making early detection of diseases crucial for timely intervention and minimizing losses. Traditional manual inspection methods are labor-intensive and time-consuming, often leading to delays in disease identification. However, image processing techniques provide a non-intrusive and efficient approach to automatically detect and classify leaf diseases.
+      	<BR>
+
+The process of leaf disease detection using image processing typically involves several key steps. Firstly, leaf images are captured using cameras or other imaging devices. These images may be affected by various factors such as lighting conditions, background clutter, and variations in leaf shapes and colors. Preprocessing techniques like noise removal, image enhancement, and segmentation are applied to ensure that the relevant information for disease detection is extracted accurately. 
+
+</p>
+    </div>
+    <div class="project">
+      <!-- <img src="project2.jpg" alt="Project 2"> -->
+      <h3>Project 2</h3>
+      <h1>AGRICULTURE DRONE FOR PLANT LEAF DISEASE DETECTION  AND PEST CONTROL</h1>
+      <p id="project">Agriculture drones have emerged as a revolutionary tool for plant leaf disease detection and pest control in modern farming practices. Equipped with advanced sensors, cameras, and image processing capabilities, these drones enable farmers to monitor large fields with unprecedented efficiency and precision.
+<br>
+For plant leaf disease detection, agriculture drones capture high-resolution images of crops from above, allowing for a comprehensive view of the entire field. These images are then processed using sophisticated algorithms that can identify subtle signs of diseases, such as discoloration, wilting, or unusual patterns on the leaves. By detecting diseases at an early stage, farmers can implement targeted treatments and prevent the spread of infections, thus reducing the need for broad-spectrum chemical interventions.
+</p>
+    </div>
+  </section>
+
+<!-- resume -->
+
+	<section id="resume">
+		<h2>Resume</h2>
+		<div class="resume">
+			<img src="resume.png">
+		
+    <p>Download my resume in PDF format: <a href="lakshmana saii.pdf" target="_blank">Download PDF</a>
+    </p>
+    </div>
+	</section>
+
+<!-- Contact Section -->
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+    <p>Email: name.email@example.com</p>
+    <p>Phone: +19 **********</p>
+	</div>
+  </section>
+
+  <!-- Footer Section -->
+  
+  <footer>
+    <p>&copy; 2023 Lakshmana saii. All rights reserved.</p>
+    <!-- Additional links or information can be added here -->
+  </footer>
+ 
+</body>
+</html>
